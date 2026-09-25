@@ -1,0 +1,22 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local configuration and credentials
+.env
+.env.*
+.vscode/
+
+# Legacy exports and models from the earlier analysis
+/models/
+/tennis_project.html
+/tennis_project.pdf
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
