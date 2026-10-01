@@ -4,7 +4,7 @@ An analysis of how serving statistics relate to recorded ATP match outcomes, com
 
 **This is retrospective classification.** The models use statistics from completed matches. Their accuracy does not measure the ability to forecast an unplayed match.
 
-[Read the notebook](tennis_project.ipynb)
+[Read the notebook](tennis_match_outcome_classification.ipynb)
 
 ## Approach
 
@@ -32,7 +32,7 @@ Total serve points won rate receives the highest importance in the tree-based mo
 ## Files
 
 ```text
-tennis_project.ipynb
+tennis_match_outcome_classification.ipynb
 requirements.txt
 data/
   atp_matches_2014.csv
@@ -53,7 +53,7 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-Open the project folder in VS Code with the Python and Jupyter extensions installed. Open `tennis_project.ipynb`, select the `.venv` Python kernel, and run the notebook from top to bottom.
+Open the project folder in VS Code with the Python and Jupyter extensions installed. Open `tennis_match_outcome_classification.ipynb`, select the `.venv` Python kernel, and run the notebook from top to bottom.
 
 The Random Forest search evaluates 54 configurations over three grouped folds, so this step takes longer than the rest of the notebook. The code uses CPU-based training.
 
